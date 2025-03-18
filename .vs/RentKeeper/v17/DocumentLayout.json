@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Aluno\\Downloads\\RentKeeper (1)\\RentKeeper\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3BC37A1D-18F5-407F-861D-95719F459CD4}|RentKeeper\\RentKeeper.csproj|c:\\users\\aluno\\downloads\\rentkeeper (1)\\rentkeeper\\rentkeeper\\objects\\enums\\posicao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BC37A1D-18F5-407F-861D-95719F459CD4}|RentKeeper\\RentKeeper.csproj|solutionrelative:rentkeeper\\objects\\enums\\posicao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Posicao.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Downloads\\RentKeeper (1)\\RentKeeper\\RentKeeper\\Objects\\Enums\\Posicao.cs",
+              "RelativeDocumentMoniker": "RentKeeper\\Objects\\Enums\\Posicao.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Downloads\\RentKeeper (1)\\RentKeeper\\RentKeeper\\Objects\\Enums\\Posicao.cs",
+              "RelativeToolTip": "RentKeeper\\Objects\\Enums\\Posicao.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T18:28:58.546Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
