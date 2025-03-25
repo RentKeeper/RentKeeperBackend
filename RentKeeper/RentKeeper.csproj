@@ -16,7 +16,6 @@
     <Folder Include="Data\Repositories\" />
     <Folder Include="Objects\Dtos\Entities\" />
     <Folder Include="Objects\Dtos\Mappings\" />
-    <Folder Include="Objects\Models\" />
     <Folder Include="Services\Entities\" />
     <Folder Include="Services\Interfaces\" />
   </ItemGroup>
