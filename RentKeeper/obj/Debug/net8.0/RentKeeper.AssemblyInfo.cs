@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RentKeeper")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e7fe2e3d15e78d376e4f073e0c8ee8f1277ca242")]
 [assembly: System.Reflection.AssemblyProductAttribute("RentKeeper")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RentKeeper")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

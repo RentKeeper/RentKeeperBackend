@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Aluno\\Downloads\\RentKeeper (1)\\RentKeeper\\RentKeeper\\RentKeeper.csproj": {}
+    "C:\\Users\\Aluno\\Desktop\\RentKeeperBackend\\RentKeeper\\RentKeeper.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Aluno\\Downloads\\RentKeeper (1)\\RentKeeper\\RentKeeper\\RentKeeper.csproj": {
+    "C:\\Users\\Aluno\\Desktop\\RentKeeperBackend\\RentKeeper\\RentKeeper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aluno\\Downloads\\RentKeeper (1)\\RentKeeper\\RentKeeper\\RentKeeper.csproj",
+        "projectUniqueName": "C:\\Users\\Aluno\\Desktop\\RentKeeperBackend\\RentKeeper\\RentKeeper.csproj",
         "projectName": "RentKeeper",
-        "projectPath": "C:\\Users\\Aluno\\Downloads\\RentKeeper (1)\\RentKeeper\\RentKeeper\\RentKeeper.csproj",
+        "projectPath": "C:\\Users\\Aluno\\Desktop\\RentKeeperBackend\\RentKeeper\\RentKeeper.csproj",
         "packagesPath": "C:\\Users\\Aluno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aluno\\Downloads\\RentKeeper (1)\\RentKeeper\\RentKeeper\\obj\\",
+        "outputPath": "C:\\Users\\Aluno\\Desktop\\RentKeeperBackend\\RentKeeper\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
