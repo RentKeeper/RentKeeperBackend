@@ -1,9 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Aluno\\Downloads\\RentKeeper (1)\\RentKeeper\\",
+  "WorkspaceRootPath": "C:\\Users\\Aluno\\Desktop\\RentKeeperBackend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3BC37A1D-18F5-407F-861D-95719F459CD4}|RentKeeper\\RentKeeper.csproj|c:\\users\\aluno\\downloads\\rentkeeper (1)\\rentkeeper\\rentkeeper\\objects\\enums\\posicao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3BC37A1D-18F5-407F-861D-95719F459CD4}|RentKeeper\\RentKeeper.csproj|c:\\users\\aluno\\desktop\\rentkeeperbackend\\rentkeeper\\objects\\models\\anuncio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BC37A1D-18F5-407F-861D-95719F459CD4}|RentKeeper\\RentKeeper.csproj|solutionrelative:rentkeeper\\objects\\models\\anuncio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BC37A1D-18F5-407F-861D-95719F459CD4}|RentKeeper\\RentKeeper.csproj|c:\\users\\aluno\\desktop\\rentkeeperbackend\\rentkeeper\\objects\\enums\\posicao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3BC37A1D-18F5-407F-861D-95719F459CD4}|RentKeeper\\RentKeeper.csproj|solutionrelative:rentkeeper\\objects\\enums\\posicao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -19,12 +23,29 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Anuncio.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\RentKeeperBackend\\RentKeeper\\Objects\\models\\Anuncio.cs",
+              "RelativeDocumentMoniker": "RentKeeper\\Objects\\models\\Anuncio.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Desktop\\RentKeeperBackend\\RentKeeper\\Objects\\models\\Anuncio.cs",
+              "RelativeToolTip": "RentKeeper\\Objects\\models\\Anuncio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T16:41:11.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Posicao.cs",
-              "DocumentMoniker": "C:\\Users\\Aluno\\Downloads\\RentKeeper (1)\\RentKeeper\\RentKeeper\\Objects\\Enums\\Posicao.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\RentKeeperBackend\\RentKeeper\\Objects\\Enums\\Posicao.cs",
               "RelativeDocumentMoniker": "RentKeeper\\Objects\\Enums\\Posicao.cs",
-              "ToolTip": "C:\\Users\\Aluno\\Downloads\\RentKeeper (1)\\RentKeeper\\RentKeeper\\Objects\\Enums\\Posicao.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Desktop\\RentKeeperBackend\\RentKeeper\\Objects\\Enums\\Posicao.cs",
               "RelativeToolTip": "RentKeeper\\Objects\\Enums\\Posicao.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-17T18:28:58.546Z",
               "EditorCaption": ""
