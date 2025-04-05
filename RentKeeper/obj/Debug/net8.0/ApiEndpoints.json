@@ -1,5 +1,84 @@
 [
   {
+    "ContainingType": "RentKeeper.Controllers.AluguelController",
+    "Method": "GetAll",
+    "RelativePath": "api/Aluguel",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RentKeeper.Controllers.AluguelController",
+    "Method": "Create",
+    "RelativePath": "api/Aluguel",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "RentKeeper.Objects.Dtos.Entities.AluguelDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RentKeeper.Controllers.AluguelController",
+    "Method": "GetById",
+    "RelativePath": "api/Aluguel/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RentKeeper.Controllers.AluguelController",
+    "Method": "Update",
+    "RelativePath": "api/Aluguel/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "RentKeeper.Objects.Dtos.Entities.AluguelDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RentKeeper.Controllers.AluguelController",
+    "Method": "Delete",
+    "RelativePath": "api/Aluguel/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "RentKeeper.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

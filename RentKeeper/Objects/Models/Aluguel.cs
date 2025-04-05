@@ -1,23 +1,16 @@
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-[Table("Aluguel")]
-public class Aluguel
+
+namespace RentKeeper.Models
 {
-    [Column("IdAluguel")]
-    public int IdAluguel { get; set; }
-    [Column("ValorAluguel")]
-    public decimal ValorAluguel { get; set; } 
-    [Column("AvaliacaoJogador")]
-    public int AvaliacaoJogador { get; set; } 
-
-  
-    public Aluguel()
+    [Table("Aluguel")]
+    public class Aluguel
     {
-    }
+        [Key]
+        public int IdAluguel { get; set; }
 
-    public Aluguel(int idAluguel, decimal valorAluguel, int avaliacaoJogador)
-    {
-        IdAluguel = idAluguel;
-        ValorAluguel = valorAluguel;
-        AvaliacaoJogador = avaliacaoJogador;
+        public decimal ValorAluguel { get; set; }
+
+        public int AvaliacaoJogador { get; set; }
     }
 }
