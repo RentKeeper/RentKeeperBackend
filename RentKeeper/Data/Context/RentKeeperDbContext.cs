@@ -11,9 +11,7 @@ namespace RentKeeper.Data.Context
         }
 
         public DbSet<Aluguel> Alugueis { get; set; }
-
-        // Exemplo: adicione mais DbSets quando necessário
-        // public DbSet<Jogador> Jogadores { get; set; }
-        // public DbSet<Partida> Partidas { get; set; }
+        public DbSet<Goleiro> Goleiros { get; set; }
+        public DbSet<Usuario> Usuarios { get; set; }
     }
 }

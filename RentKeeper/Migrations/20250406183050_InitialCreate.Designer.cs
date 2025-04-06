@@ -11,7 +11,7 @@ using RentKeeper.Data.Context;
 namespace RentKeeper.Migrations
 {
     [DbContext(typeof(RentKeeperDbContext))]
-    [Migration("20250405192022_InitialCreate")]
+    [Migration("20250406183050_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -41,6 +41,35 @@ namespace RentKeeper.Migrations
                     b.HasKey("IdAluguel");
 
                     b.ToTable("Aluguel");
+                });
+
+            modelBuilder.Entity("RentKeeper.Models.Goleiro", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("Avaliacao")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("Disponivel")
+                        .HasColumnType("tinyint(1)");
+
+                    b.Property<int>("Idade")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<decimal>("PrecoPorJogo")
+                        .HasColumnType("decimal(65,30)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Goleiros");
                 });
 #pragma warning restore 612, 618
         }
