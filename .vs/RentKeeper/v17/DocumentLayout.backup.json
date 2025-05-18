@@ -1,0 +1,937 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\biel\\Desktop\\RentKeeper\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|c:\\users\\biel\\desktop\\rentkeeper\\rentkeeper\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|solutionrelative:rentkeeper\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|c:\\users\\biel\\desktop\\rentkeeper\\rentkeeper\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|solutionrelative:rentkeeper\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|c:\\users\\biel\\desktop\\rentkeeper\\rentkeeper\\data\\builders\\pagamentobuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|solutionrelative:rentkeeper\\data\\builders\\pagamentobuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|c:\\users\\biel\\desktop\\rentkeeper\\rentkeeper\\objects\\models\\aluguel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|solutionrelative:rentkeeper\\objects\\models\\aluguel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|c:\\users\\biel\\desktop\\rentkeeper\\rentkeeper\\data\\builders\\usuariobuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|solutionrelative:rentkeeper\\data\\builders\\usuariobuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|c:\\users\\biel\\desktop\\rentkeeper\\rentkeeper\\controllers\\timecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|solutionrelative:rentkeeper\\controllers\\timecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|c:\\users\\biel\\desktop\\rentkeeper\\rentkeeper\\objects\\dtos\\mappings\\timeprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|solutionrelative:rentkeeper\\objects\\dtos\\mappings\\timeprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|c:\\users\\biel\\desktop\\rentkeeper\\rentkeeper\\objects\\dtos\\entities\\timereaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|solutionrelative:rentkeeper\\objects\\dtos\\entities\\timereaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|c:\\users\\biel\\desktop\\rentkeeper\\rentkeeper\\objects\\dtos\\entities\\timecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|solutionrelative:rentkeeper\\objects\\dtos\\entities\\timecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|c:\\users\\biel\\desktop\\rentkeeper\\rentkeeper\\service\\entities\\timeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|solutionrelative:rentkeeper\\service\\entities\\timeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|c:\\users\\biel\\desktop\\rentkeeper\\rentkeeper\\service\\interfaces\\itimeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|solutionrelative:rentkeeper\\service\\interfaces\\itimeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|c:\\users\\biel\\desktop\\rentkeeper\\rentkeeper\\data\\repositories\\timerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|solutionrelative:rentkeeper\\data\\repositories\\timerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|c:\\users\\biel\\desktop\\rentkeeper\\rentkeeper\\data\\interfaces\\itimerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|solutionrelative:rentkeeper\\data\\interfaces\\itimerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|c:\\users\\biel\\desktop\\rentkeeper\\rentkeeper\\data\\builders\\timebuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|solutionrelative:rentkeeper\\data\\builders\\timebuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|c:\\users\\biel\\desktop\\rentkeeper\\rentkeeper\\objects\\models\\time.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|solutionrelative:rentkeeper\\objects\\models\\time.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|c:\\users\\biel\\desktop\\rentkeeper\\rentkeeper\\controllers\\pagamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|solutionrelative:rentkeeper\\controllers\\pagamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|c:\\users\\biel\\desktop\\rentkeeper\\rentkeeper\\objects\\dtos\\mappings\\pagamentoprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|solutionrelative:rentkeeper\\objects\\dtos\\mappings\\pagamentoprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|c:\\users\\biel\\desktop\\rentkeeper\\rentkeeper\\objects\\dtos\\entities\\pagamentoreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|solutionrelative:rentkeeper\\objects\\dtos\\entities\\pagamentoreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|c:\\users\\biel\\desktop\\rentkeeper\\rentkeeper\\objects\\dtos\\entities\\pagamentocreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|solutionrelative:rentkeeper\\objects\\dtos\\entities\\pagamentocreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|c:\\users\\biel\\desktop\\rentkeeper\\rentkeeper\\service\\entities\\pagamentoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|solutionrelative:rentkeeper\\service\\entities\\pagamentoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|c:\\users\\biel\\desktop\\rentkeeper\\rentkeeper\\service\\interfaces\\ipagamentoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|solutionrelative:rentkeeper\\service\\interfaces\\ipagamentoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|c:\\users\\biel\\desktop\\rentkeeper\\rentkeeper\\data\\repositories\\pagamentorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|solutionrelative:rentkeeper\\data\\repositories\\pagamentorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|c:\\users\\biel\\desktop\\rentkeeper\\rentkeeper\\data\\interfaces\\ipagamentorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|solutionrelative:rentkeeper\\data\\interfaces\\ipagamentorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|c:\\users\\biel\\desktop\\rentkeeper\\rentkeeper\\objects\\models\\pagamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|solutionrelative:rentkeeper\\objects\\models\\pagamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|c:\\users\\biel\\desktop\\rentkeeper\\rentkeeper\\objects\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|solutionrelative:rentkeeper\\objects\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|c:\\users\\biel\\desktop\\rentkeeper\\rentkeeper\\objects\\dtos\\mappings\\usuarioprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|solutionrelative:rentkeeper\\objects\\dtos\\mappings\\usuarioprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|c:\\users\\biel\\desktop\\rentkeeper\\rentkeeper\\controllers\\aluguelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|solutionrelative:rentkeeper\\controllers\\aluguelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|c:\\users\\biel\\desktop\\rentkeeper\\rentkeeper\\objects\\dtos\\mappings\\aluguelprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|solutionrelative:rentkeeper\\objects\\dtos\\mappings\\aluguelprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|c:\\users\\biel\\desktop\\rentkeeper\\rentkeeper\\objects\\dtos\\entities\\aluguelreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|solutionrelative:rentkeeper\\objects\\dtos\\entities\\aluguelreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|c:\\users\\biel\\desktop\\rentkeeper\\rentkeeper\\objects\\dtos\\entities\\aluguelcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|solutionrelative:rentkeeper\\objects\\dtos\\entities\\aluguelcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|c:\\users\\biel\\desktop\\rentkeeper\\rentkeeper\\service\\entities\\aluguelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|solutionrelative:rentkeeper\\service\\entities\\aluguelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|c:\\users\\biel\\desktop\\rentkeeper\\rentkeeper\\service\\interfaces\\ialuguelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|solutionrelative:rentkeeper\\service\\interfaces\\ialuguelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|c:\\users\\biel\\desktop\\rentkeeper\\rentkeeper\\data\\repositories\\aluguelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|solutionrelative:rentkeeper\\data\\repositories\\aluguelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|c:\\users\\biel\\desktop\\rentkeeper\\rentkeeper\\data\\interfaces\\ialuguelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|solutionrelative:rentkeeper\\data\\interfaces\\ialuguelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|c:\\users\\biel\\desktop\\rentkeeper\\rentkeeper\\data\\builders\\aluguelbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|solutionrelative:rentkeeper\\data\\builders\\aluguelbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|c:\\users\\biel\\desktop\\rentkeeper\\rentkeeper\\objects\\models\\anuncio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|solutionrelative:rentkeeper\\objects\\models\\anuncio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|c:\\users\\biel\\desktop\\rentkeeper\\rentkeeper\\rentkeeper.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|solutionrelative:rentkeeper\\rentkeeper.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|c:\\users\\biel\\desktop\\rentkeeper\\rentkeeper\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|solutionrelative:rentkeeper\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|c:\\users\\biel\\desktop\\rentkeeper\\rentkeeper\\controllers\\anunciocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|solutionrelative:rentkeeper\\controllers\\anunciocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|c:\\users\\biel\\desktop\\rentkeeper\\rentkeeper\\objects\\enums\\posicao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|solutionrelative:rentkeeper\\objects\\enums\\posicao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|c:\\users\\biel\\desktop\\rentkeeper\\rentkeeper\\objects\\enums\\formapagamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|solutionrelative:rentkeeper\\objects\\enums\\formapagamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|c:\\users\\biel\\desktop\\rentkeeper\\rentkeeper\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|solutionrelative:rentkeeper\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|c:\\users\\biel\\desktop\\rentkeeper\\rentkeeper\\data\\builders\\anunciobuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|solutionrelative:rentkeeper\\data\\builders\\anunciobuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|c:\\users\\biel\\desktop\\rentkeeper\\rentkeeper\\data\\interfaces\\ianunciorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|solutionrelative:rentkeeper\\data\\interfaces\\ianunciorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|c:\\users\\biel\\desktop\\rentkeeper\\rentkeeper\\data\\context\\rentkeeperdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|solutionrelative:rentkeeper\\data\\context\\rentkeeperdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|c:\\users\\biel\\desktop\\rentkeeper\\rentkeeper\\data\\interfaces\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|solutionrelative:rentkeeper\\data\\interfaces\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|c:\\users\\biel\\desktop\\rentkeeper\\rentkeeper\\data\\repositories\\anunciorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|solutionrelative:rentkeeper\\data\\repositories\\anunciorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|c:\\users\\biel\\desktop\\rentkeeper\\rentkeeper\\data\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|solutionrelative:rentkeeper\\data\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|c:\\users\\biel\\desktop\\rentkeeper\\rentkeeper\\objects\\dtos\\entities\\anunciocreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|solutionrelative:rentkeeper\\objects\\dtos\\entities\\anunciocreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|c:\\users\\biel\\desktop\\rentkeeper\\rentkeeper\\objects\\dtos\\entities\\anuncioreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|solutionrelative:rentkeeper\\objects\\dtos\\entities\\anuncioreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|c:\\users\\biel\\desktop\\rentkeeper\\rentkeeper\\objects\\dtos\\entities\\usuariocreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|solutionrelative:rentkeeper\\objects\\dtos\\entities\\usuariocreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|c:\\users\\biel\\desktop\\rentkeeper\\rentkeeper\\objects\\dtos\\entities\\usuarioreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|solutionrelative:rentkeeper\\objects\\dtos\\entities\\usuarioreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|c:\\users\\biel\\desktop\\rentkeeper\\rentkeeper\\objects\\dtos\\mappings\\anuncioprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|solutionrelative:rentkeeper\\objects\\dtos\\mappings\\anuncioprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|c:\\users\\biel\\desktop\\rentkeeper\\rentkeeper\\service\\entities\\anuncioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|solutionrelative:rentkeeper\\service\\entities\\anuncioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|c:\\users\\biel\\desktop\\rentkeeper\\rentkeeper\\service\\interfaces\\ianuncioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|solutionrelative:rentkeeper\\service\\interfaces\\ianuncioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|c:\\users\\biel\\desktop\\rentkeeper\\rentkeeper\\service\\entities\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|solutionrelative:rentkeeper\\service\\entities\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|c:\\users\\biel\\desktop\\rentkeeper\\rentkeeper\\service\\interfaces\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA6C527-07CF-4984-A6EB-FB7D0CD534CB}|RentKeeper\\RentKeeper.csproj|solutionrelative:rentkeeper\\service\\interfaces\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 102,
+          "SelectedChildIndex": 44,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TimeController.cs",
+              "DocumentMoniker": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Controllers\\TimeController.cs",
+              "RelativeDocumentMoniker": "RentKeeper\\Controllers\\TimeController.cs",
+              "ToolTip": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Controllers\\TimeController.cs",
+              "RelativeToolTip": "RentKeeper\\Controllers\\TimeController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAswD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T14:13:04.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TimeProfile.cs",
+              "DocumentMoniker": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Objects\\Dtos\\Mappings\\TimeProfile.cs",
+              "RelativeDocumentMoniker": "RentKeeper\\Objects\\Dtos\\Mappings\\TimeProfile.cs",
+              "ToolTip": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Objects\\Dtos\\Mappings\\TimeProfile.cs",
+              "RelativeToolTip": "RentKeeper\\Objects\\Dtos\\Mappings\\TimeProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T14:12:50.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TimeReadDto.cs",
+              "DocumentMoniker": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Objects\\Dtos\\Entities\\TimeReadDto.cs",
+              "RelativeDocumentMoniker": "RentKeeper\\Objects\\Dtos\\Entities\\TimeReadDto.cs",
+              "ToolTip": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Objects\\Dtos\\Entities\\TimeReadDto.cs",
+              "RelativeToolTip": "RentKeeper\\Objects\\Dtos\\Entities\\TimeReadDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T14:12:14.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TimeCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Objects\\Dtos\\Entities\\TimeCreateDto.cs",
+              "RelativeDocumentMoniker": "RentKeeper\\Objects\\Dtos\\Entities\\TimeCreateDto.cs",
+              "ToolTip": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Objects\\Dtos\\Entities\\TimeCreateDto.cs",
+              "RelativeToolTip": "RentKeeper\\Objects\\Dtos\\Entities\\TimeCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T14:11:55.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TimeService.cs",
+              "DocumentMoniker": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Service\\Entities\\TimeService.cs",
+              "RelativeDocumentMoniker": "RentKeeper\\Service\\Entities\\TimeService.cs",
+              "ToolTip": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Service\\Entities\\TimeService.cs",
+              "RelativeToolTip": "RentKeeper\\Service\\Entities\\TimeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T14:11:19.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ITimeService.cs",
+              "DocumentMoniker": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Service\\Interfaces\\ITimeService.cs",
+              "RelativeDocumentMoniker": "RentKeeper\\Service\\Interfaces\\ITimeService.cs",
+              "ToolTip": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Service\\Interfaces\\ITimeService.cs",
+              "RelativeToolTip": "RentKeeper\\Service\\Interfaces\\ITimeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T14:11:02.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TimeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Data\\Repositories\\TimeRepository.cs",
+              "RelativeDocumentMoniker": "RentKeeper\\Data\\Repositories\\TimeRepository.cs",
+              "ToolTip": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Data\\Repositories\\TimeRepository.cs",
+              "RelativeToolTip": "RentKeeper\\Data\\Repositories\\TimeRepository.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAswDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T14:10:31.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ITimeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Data\\Interfaces\\ITimeRepository.cs",
+              "RelativeDocumentMoniker": "RentKeeper\\Data\\Interfaces\\ITimeRepository.cs",
+              "ToolTip": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Data\\Interfaces\\ITimeRepository.cs",
+              "RelativeToolTip": "RentKeeper\\Data\\Interfaces\\ITimeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T14:10:17.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TimeBuilder.cs",
+              "DocumentMoniker": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Data\\Builders\\TimeBuilder.cs",
+              "RelativeDocumentMoniker": "RentKeeper\\Data\\Builders\\TimeBuilder.cs",
+              "ToolTip": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Data\\Builders\\TimeBuilder.cs",
+              "RelativeToolTip": "RentKeeper\\Data\\Builders\\TimeBuilder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T14:09:57.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Time.cs",
+              "DocumentMoniker": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Objects\\Models\\Time.cs",
+              "RelativeDocumentMoniker": "RentKeeper\\Objects\\Models\\Time.cs",
+              "ToolTip": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Objects\\Models\\Time.cs",
+              "RelativeToolTip": "RentKeeper\\Objects\\Models\\Time.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T14:09:39.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PagamentoController.cs",
+              "DocumentMoniker": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Controllers\\PagamentoController.cs",
+              "RelativeDocumentMoniker": "RentKeeper\\Controllers\\PagamentoController.cs",
+              "ToolTip": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Controllers\\PagamentoController.cs",
+              "RelativeToolTip": "RentKeeper\\Controllers\\PagamentoController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAswD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T14:09:09.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PagamentoProfile.cs",
+              "DocumentMoniker": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Objects\\Dtos\\Mappings\\PagamentoProfile.cs",
+              "RelativeDocumentMoniker": "RentKeeper\\Objects\\Dtos\\Mappings\\PagamentoProfile.cs",
+              "ToolTip": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Objects\\Dtos\\Mappings\\PagamentoProfile.cs",
+              "RelativeToolTip": "RentKeeper\\Objects\\Dtos\\Mappings\\PagamentoProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T14:08:56.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PagamentoReadDto.cs",
+              "DocumentMoniker": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Objects\\Dtos\\Entities\\PagamentoReadDto.cs",
+              "RelativeDocumentMoniker": "RentKeeper\\Objects\\Dtos\\Entities\\PagamentoReadDto.cs",
+              "ToolTip": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Objects\\Dtos\\Entities\\PagamentoReadDto.cs",
+              "RelativeToolTip": "RentKeeper\\Objects\\Dtos\\Entities\\PagamentoReadDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T14:08:43.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PagamentoCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Objects\\Dtos\\Entities\\PagamentoCreateDto.cs",
+              "RelativeDocumentMoniker": "RentKeeper\\Objects\\Dtos\\Entities\\PagamentoCreateDto.cs",
+              "ToolTip": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Objects\\Dtos\\Entities\\PagamentoCreateDto.cs",
+              "RelativeToolTip": "RentKeeper\\Objects\\Dtos\\Entities\\PagamentoCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T14:08:17.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PagamentoService.cs",
+              "DocumentMoniker": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Service\\Entities\\PagamentoService.cs",
+              "RelativeDocumentMoniker": "RentKeeper\\Service\\Entities\\PagamentoService.cs",
+              "ToolTip": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Service\\Entities\\PagamentoService.cs",
+              "RelativeToolTip": "RentKeeper\\Service\\Entities\\PagamentoService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T14:07:47.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IPagamentoService.cs",
+              "DocumentMoniker": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Service\\Interfaces\\IPagamentoService.cs",
+              "RelativeDocumentMoniker": "RentKeeper\\Service\\Interfaces\\IPagamentoService.cs",
+              "ToolTip": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Service\\Interfaces\\IPagamentoService.cs",
+              "RelativeToolTip": "RentKeeper\\Service\\Interfaces\\IPagamentoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T14:07:32.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "PagamentoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Data\\Repositories\\PagamentoRepository.cs",
+              "RelativeDocumentMoniker": "RentKeeper\\Data\\Repositories\\PagamentoRepository.cs",
+              "ToolTip": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Data\\Repositories\\PagamentoRepository.cs",
+              "RelativeToolTip": "RentKeeper\\Data\\Repositories\\PagamentoRepository.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAkwDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T14:07:04.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IPagamentoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Data\\Interfaces\\IPagamentoRepository.cs",
+              "RelativeDocumentMoniker": "RentKeeper\\Data\\Interfaces\\IPagamentoRepository.cs",
+              "ToolTip": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Data\\Interfaces\\IPagamentoRepository.cs",
+              "RelativeToolTip": "RentKeeper\\Data\\Interfaces\\IPagamentoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T14:06:44.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PagamentoBuilder.cs",
+              "DocumentMoniker": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Data\\Builders\\PagamentoBuilder.cs",
+              "RelativeDocumentMoniker": "RentKeeper\\Data\\Builders\\PagamentoBuilder.cs",
+              "ToolTip": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Data\\Builders\\PagamentoBuilder.cs",
+              "RelativeToolTip": "RentKeeper\\Data\\Builders\\PagamentoBuilder.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAWwBUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T14:06:17.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Pagamento.cs",
+              "DocumentMoniker": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Objects\\Models\\Pagamento.cs",
+              "RelativeDocumentMoniker": "RentKeeper\\Objects\\Models\\Pagamento.cs",
+              "ToolTip": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Objects\\Models\\Pagamento.cs",
+              "RelativeToolTip": "RentKeeper\\Objects\\Models\\Pagamento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T14:05:52.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AluguelController.cs",
+              "DocumentMoniker": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Controllers\\AluguelController.cs",
+              "RelativeDocumentMoniker": "RentKeeper\\Controllers\\AluguelController.cs",
+              "ToolTip": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Controllers\\AluguelController.cs",
+              "RelativeToolTip": "RentKeeper\\Controllers\\AluguelController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAkwD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T14:03:36.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AluguelProfile.cs",
+              "DocumentMoniker": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Objects\\Dtos\\Mappings\\AluguelProfile.cs",
+              "RelativeDocumentMoniker": "RentKeeper\\Objects\\Dtos\\Mappings\\AluguelProfile.cs",
+              "ToolTip": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Objects\\Dtos\\Mappings\\AluguelProfile.cs",
+              "RelativeToolTip": "RentKeeper\\Objects\\Dtos\\Mappings\\AluguelProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T14:03:20.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AluguelReadDto.cs",
+              "DocumentMoniker": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Objects\\Dtos\\Entities\\AluguelReadDto.cs",
+              "RelativeDocumentMoniker": "RentKeeper\\Objects\\Dtos\\Entities\\AluguelReadDto.cs",
+              "ToolTip": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Objects\\Dtos\\Entities\\AluguelReadDto.cs",
+              "RelativeToolTip": "RentKeeper\\Objects\\Dtos\\Entities\\AluguelReadDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T14:03:02.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AluguelCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Objects\\Dtos\\Entities\\AluguelCreateDto.cs",
+              "RelativeDocumentMoniker": "RentKeeper\\Objects\\Dtos\\Entities\\AluguelCreateDto.cs",
+              "ToolTip": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Objects\\Dtos\\Entities\\AluguelCreateDto.cs",
+              "RelativeToolTip": "RentKeeper\\Objects\\Dtos\\Entities\\AluguelCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T14:02:43.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "AluguelService.cs",
+              "DocumentMoniker": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Service\\Entities\\AluguelService.cs",
+              "RelativeDocumentMoniker": "RentKeeper\\Service\\Entities\\AluguelService.cs",
+              "ToolTip": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Service\\Entities\\AluguelService.cs",
+              "RelativeToolTip": "RentKeeper\\Service\\Entities\\AluguelService.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAIwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T14:02:12.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IAluguelService.cs",
+              "DocumentMoniker": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Service\\Interfaces\\IAluguelService.cs",
+              "RelativeDocumentMoniker": "RentKeeper\\Service\\Interfaces\\IAluguelService.cs",
+              "ToolTip": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Service\\Interfaces\\IAluguelService.cs",
+              "RelativeToolTip": "RentKeeper\\Service\\Interfaces\\IAluguelService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T14:01:51.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "AluguelRepository.cs",
+              "DocumentMoniker": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Data\\Repositories\\AluguelRepository.cs",
+              "RelativeDocumentMoniker": "RentKeeper\\Data\\Repositories\\AluguelRepository.cs",
+              "ToolTip": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Data\\Repositories\\AluguelRepository.cs",
+              "RelativeToolTip": "RentKeeper\\Data\\Repositories\\AluguelRepository.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAADwvzgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T14:01:21.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IAluguelRepository.cs",
+              "DocumentMoniker": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Data\\Interfaces\\IAluguelRepository.cs",
+              "RelativeDocumentMoniker": "RentKeeper\\Data\\Interfaces\\IAluguelRepository.cs",
+              "ToolTip": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Data\\Interfaces\\IAluguelRepository.cs",
+              "RelativeToolTip": "RentKeeper\\Data\\Interfaces\\IAluguelRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T14:01:05.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "AluguelBuilder.cs",
+              "DocumentMoniker": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Data\\Builders\\AluguelBuilder.cs",
+              "RelativeDocumentMoniker": "RentKeeper\\Data\\Builders\\AluguelBuilder.cs",
+              "ToolTip": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Data\\Builders\\AluguelBuilder.cs",
+              "RelativeToolTip": "RentKeeper\\Data\\Builders\\AluguelBuilder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T14:00:39.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Aluguel.cs",
+              "DocumentMoniker": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Objects\\Models\\Aluguel.cs",
+              "RelativeDocumentMoniker": "RentKeeper\\Objects\\Models\\Aluguel.cs",
+              "ToolTip": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Objects\\Models\\Aluguel.cs",
+              "RelativeToolTip": "RentKeeper\\Objects\\Models\\Aluguel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T14:00:18.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "RentKeeper.csproj",
+              "DocumentMoniker": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\RentKeeper.csproj",
+              "RelativeDocumentMoniker": "RentKeeper\\RentKeeper.csproj",
+              "ToolTip": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\RentKeeper.csproj",
+              "RelativeToolTip": "RentKeeper\\RentKeeper.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-18T13:54:17.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "RentKeeper\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "RentKeeper\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T13:54:05.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "AnuncioController.cs",
+              "DocumentMoniker": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Controllers\\AnuncioController.cs",
+              "RelativeDocumentMoniker": "RentKeeper\\Controllers\\AnuncioController.cs",
+              "ToolTip": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Controllers\\AnuncioController.cs",
+              "RelativeToolTip": "RentKeeper\\Controllers\\AnuncioController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAA5wD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T13:53:01.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "AnuncioProfile.cs",
+              "DocumentMoniker": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Objects\\Dtos\\Mappings\\AnuncioProfile.cs",
+              "RelativeDocumentMoniker": "RentKeeper\\Objects\\Dtos\\Mappings\\AnuncioProfile.cs",
+              "ToolTip": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Objects\\Dtos\\Mappings\\AnuncioProfile.cs",
+              "RelativeToolTip": "RentKeeper\\Objects\\Dtos\\Mappings\\AnuncioProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T13:52:45.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "AnuncioReadDto.cs",
+              "DocumentMoniker": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Objects\\Dtos\\Entities\\AnuncioReadDto.cs",
+              "RelativeDocumentMoniker": "RentKeeper\\Objects\\Dtos\\Entities\\AnuncioReadDto.cs",
+              "ToolTip": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Objects\\Dtos\\Entities\\AnuncioReadDto.cs",
+              "RelativeToolTip": "RentKeeper\\Objects\\Dtos\\Entities\\AnuncioReadDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T13:52:19.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "AnuncioCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Objects\\Dtos\\Entities\\AnuncioCreateDto.cs",
+              "RelativeDocumentMoniker": "RentKeeper\\Objects\\Dtos\\Entities\\AnuncioCreateDto.cs",
+              "ToolTip": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Objects\\Dtos\\Entities\\AnuncioCreateDto.cs",
+              "RelativeToolTip": "RentKeeper\\Objects\\Dtos\\Entities\\AnuncioCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T13:51:59.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "AnuncioService.cs",
+              "DocumentMoniker": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Service\\Entities\\AnuncioService.cs",
+              "RelativeDocumentMoniker": "RentKeeper\\Service\\Entities\\AnuncioService.cs",
+              "ToolTip": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Service\\Entities\\AnuncioService.cs",
+              "RelativeToolTip": "RentKeeper\\Service\\Entities\\AnuncioService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T13:51:17.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "IAnuncioService.cs",
+              "DocumentMoniker": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Service\\Interfaces\\IAnuncioService.cs",
+              "RelativeDocumentMoniker": "RentKeeper\\Service\\Interfaces\\IAnuncioService.cs",
+              "ToolTip": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Service\\Interfaces\\IAnuncioService.cs",
+              "RelativeToolTip": "RentKeeper\\Service\\Interfaces\\IAnuncioService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T13:50:56.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "AnuncioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Data\\Repositories\\AnuncioRepository.cs",
+              "RelativeDocumentMoniker": "RentKeeper\\Data\\Repositories\\AnuncioRepository.cs",
+              "ToolTip": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Data\\Repositories\\AnuncioRepository.cs",
+              "RelativeToolTip": "RentKeeper\\Data\\Repositories\\AnuncioRepository.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAADwvzcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T13:50:12.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "IAnuncioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Data\\Interfaces\\IAnuncioRepository.cs",
+              "RelativeDocumentMoniker": "RentKeeper\\Data\\Interfaces\\IAnuncioRepository.cs",
+              "ToolTip": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Data\\Interfaces\\IAnuncioRepository.cs",
+              "RelativeToolTip": "RentKeeper\\Data\\Interfaces\\IAnuncioRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T13:49:42.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "AnuncioBuilder.cs",
+              "DocumentMoniker": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Data\\Builders\\AnuncioBuilder.cs",
+              "RelativeDocumentMoniker": "RentKeeper\\Data\\Builders\\AnuncioBuilder.cs",
+              "ToolTip": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Data\\Builders\\AnuncioBuilder.cs",
+              "RelativeToolTip": "RentKeeper\\Data\\Builders\\AnuncioBuilder.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T13:49:09.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Anuncio.cs",
+              "DocumentMoniker": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Objects\\Models\\Anuncio.cs",
+              "RelativeDocumentMoniker": "RentKeeper\\Objects\\Models\\Anuncio.cs",
+              "ToolTip": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Objects\\Models\\Anuncio.cs",
+              "RelativeToolTip": "RentKeeper\\Objects\\Models\\Anuncio.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAnwBYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T13:46:52.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "FormaPagamento.cs",
+              "DocumentMoniker": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Objects\\Enums\\FormaPagamento.cs",
+              "RelativeDocumentMoniker": "RentKeeper\\Objects\\Enums\\FormaPagamento.cs",
+              "ToolTip": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Objects\\Enums\\FormaPagamento.cs",
+              "RelativeToolTip": "RentKeeper\\Objects\\Enums\\FormaPagamento.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T13:45:08.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\appsettings.json",
+              "RelativeDocumentMoniker": "RentKeeper\\appsettings.json",
+              "ToolTip": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\appsettings.json",
+              "RelativeToolTip": "RentKeeper\\appsettings.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-18T13:40:41.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Program.cs",
+              "RelativeDocumentMoniker": "RentKeeper\\Program.cs",
+              "ToolTip": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Program.cs",
+              "RelativeToolTip": "RentKeeper\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T13:35:37.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "RentKeeper\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "RentKeeper\\Controllers\\UsuarioController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T13:35:10.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UsuarioProfile.cs",
+              "DocumentMoniker": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Objects\\Dtos\\Mappings\\UsuarioProfile.cs",
+              "RelativeDocumentMoniker": "RentKeeper\\Objects\\Dtos\\Mappings\\UsuarioProfile.cs",
+              "ToolTip": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Objects\\Dtos\\Mappings\\UsuarioProfile.cs",
+              "RelativeToolTip": "RentKeeper\\Objects\\Dtos\\Mappings\\UsuarioProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T13:34:51.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "UsuarioReadDto.cs",
+              "DocumentMoniker": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Objects\\Dtos\\Entities\\UsuarioReadDto.cs",
+              "RelativeDocumentMoniker": "RentKeeper\\Objects\\Dtos\\Entities\\UsuarioReadDto.cs",
+              "ToolTip": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Objects\\Dtos\\Entities\\UsuarioReadDto.cs",
+              "RelativeToolTip": "RentKeeper\\Objects\\Dtos\\Entities\\UsuarioReadDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T13:34:32.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "UsuarioCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Objects\\Dtos\\Entities\\UsuarioCreateDto.cs",
+              "RelativeDocumentMoniker": "RentKeeper\\Objects\\Dtos\\Entities\\UsuarioCreateDto.cs",
+              "ToolTip": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Objects\\Dtos\\Entities\\UsuarioCreateDto.cs",
+              "RelativeToolTip": "RentKeeper\\Objects\\Dtos\\Entities\\UsuarioCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T13:34:09.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "UsuarioService.cs",
+              "DocumentMoniker": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Service\\Entities\\UsuarioService.cs",
+              "RelativeDocumentMoniker": "RentKeeper\\Service\\Entities\\UsuarioService.cs",
+              "ToolTip": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Service\\Entities\\UsuarioService.cs",
+              "RelativeToolTip": "RentKeeper\\Service\\Entities\\UsuarioService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T13:33:33.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Class.cs",
+              "DocumentMoniker": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Service\\Interfaces\\Class.cs",
+              "RelativeDocumentMoniker": "RentKeeper\\Service\\Interfaces\\Class.cs",
+              "ToolTip": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Service\\Interfaces\\Class.cs",
+              "RelativeToolTip": "RentKeeper\\Service\\Interfaces\\Class.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T13:33:12.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "UsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Data\\Repositories\\UsuarioRepository.cs",
+              "RelativeDocumentMoniker": "RentKeeper\\Data\\Repositories\\UsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Data\\Repositories\\UsuarioRepository.cs",
+              "RelativeToolTip": "RentKeeper\\Data\\Repositories\\UsuarioRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T13:32:28.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "IUsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Data\\Interfaces\\IUsuarioRepository.cs",
+              "RelativeDocumentMoniker": "RentKeeper\\Data\\Interfaces\\IUsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Data\\Interfaces\\IUsuarioRepository.cs",
+              "RelativeToolTip": "RentKeeper\\Data\\Interfaces\\IUsuarioRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T13:30:54.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UsuarioBuilder.cs",
+              "DocumentMoniker": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Data\\Builders\\UsuarioBuilder.cs",
+              "RelativeDocumentMoniker": "RentKeeper\\Data\\Builders\\UsuarioBuilder.cs",
+              "ToolTip": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Data\\Builders\\UsuarioBuilder.cs",
+              "RelativeToolTip": "RentKeeper\\Data\\Builders\\UsuarioBuilder.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwC4AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T13:29:11.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "RentKeeperDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Data\\Context\\RentKeeperDbContext.cs",
+              "RelativeDocumentMoniker": "RentKeeper\\Data\\Context\\RentKeeperDbContext.cs",
+              "ToolTip": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Data\\Context\\RentKeeperDbContext.cs",
+              "RelativeToolTip": "RentKeeper\\Data\\Context\\RentKeeperDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T13:28:44.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Objects\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "RentKeeper\\Objects\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Objects\\Models\\Usuario.cs",
+              "RelativeToolTip": "RentKeeper\\Objects\\Models\\Usuario.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAewBYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T13:24:31.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Posicao.cs",
+              "DocumentMoniker": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Objects\\Enums\\Posicao.cs",
+              "RelativeDocumentMoniker": "RentKeeper\\Objects\\Enums\\Posicao.cs",
+              "ToolTip": "C:\\Users\\biel\\Desktop\\RentKeeper\\RentKeeper\\Objects\\Enums\\Posicao.cs",
+              "RelativeToolTip": "RentKeeper\\Objects\\Enums\\Posicao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T13:24:05.282Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
