@@ -5,9 +5,11 @@ using RentKeeper.Objects.Models;
 using RentKeeper.Services.Interfaces;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 
 namespace RentKeeper.Controllers
 {
+
     [ApiController]
     [Route("api/[controller]")]
     public class AluguelController : ControllerBase

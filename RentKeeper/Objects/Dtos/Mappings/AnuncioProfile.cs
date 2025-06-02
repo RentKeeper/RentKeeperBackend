@@ -8,8 +8,12 @@ namespace RentKeeper.Objects.Mappings
     {
         public AnuncioProfile()
         {
-            CreateMap<AnuncioCreateDto, Anuncio>();
-            CreateMap<Anuncio, AnuncioReadDto>();
-        }
+			CreateMap<AnuncioCreateDto, Anuncio>()
+	.ForMember(dest => dest.DataPartida, opt =>
+		opt.MapFrom(src => DateTime.SpecifyKind(src.DataPartida, DateTimeKind.Utc)))
+	.ForMember(dest => dest.HoraPartida, opt =>
+		opt.MapFrom(src => DateTime.SpecifyKind(src.HoraPartida, DateTimeKind.Utc)));
+			CreateMap<Anuncio, AnuncioReadDto>();
+		}
     }
 }

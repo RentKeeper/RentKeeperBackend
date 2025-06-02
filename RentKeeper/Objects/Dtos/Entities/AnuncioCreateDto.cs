@@ -10,5 +10,6 @@ namespace RentKeeper.Objects.Dtos.Entities
         public DateTime DataPartida { get; set; }
         public DateTime HoraPartida { get; set; }
         public int UsuarioId { get; set; }
+
     }
 }
