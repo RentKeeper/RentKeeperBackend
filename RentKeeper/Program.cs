@@ -50,6 +50,13 @@ builder.Services.AddAuthentication("Bearer")
 			)
 		};
 	});
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowFrontend",
+        policy => policy.WithOrigins("http://localhost:5173") // Porta do Vite
+                        .AllowAnyHeader()
+                        .AllowAnyMethod());
+});
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {
@@ -100,7 +107,7 @@ if (app.Environment.IsDevelopment())
 		c.DisplayRequestDuration();
 	});
 }
-
+app.UseCors("AllowFrontend");
 app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
