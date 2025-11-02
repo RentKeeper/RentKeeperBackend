@@ -24,35 +24,35 @@ namespace RentKeeper.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<AnuncioReadDto>> Create(AnuncioCreateDto dto)
+        public async Task<ActionResult<AnuncioDto>> Create(AnuncioDto dto)
         {
             var anuncio = _mapper.Map<Anuncio>(dto);
             await _service.CreateAsync(anuncio);
-            var readDto = _mapper.Map<AnuncioReadDto>(anuncio);
+            var readDto = _mapper.Map<AnuncioDto>(anuncio);
             return CreatedAtAction(nameof(GetById), new { id = readDto.IdAnuncio }, readDto);
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<AnuncioReadDto>> GetById(int id)
+        public async Task<ActionResult<AnuncioDto>> GetById(int id)
         {
             var anuncio = await _service.GetByIdAsync(id);
             if (anuncio == null) return NotFound();
-            return Ok(_mapper.Map<AnuncioReadDto>(anuncio));
+            return Ok(_mapper.Map<AnuncioDto>(anuncio));
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<AnuncioReadDto>>> GetAll([FromQuery] int page = 1, [FromQuery] int pageSize = 10)
+        public async Task<ActionResult<IEnumerable<AnuncioDto>>> GetAll([FromQuery] int page = 1, [FromQuery] int pageSize = 10)
         {
             var list = await _service.GetAllAsync(page, pageSize);
-            return Ok(_mapper.Map<IEnumerable<AnuncioReadDto>>(list));
+            return Ok(_mapper.Map<IEnumerable<AnuncioDto>>(list));
         }
 
         [HttpPut("{id}")]
-        public async Task<ActionResult<AnuncioReadDto>> Update(int id, AnuncioCreateDto dto)
+        public async Task<ActionResult<AnuncioDto>> Update(int id, AnuncioDto dto)
         {
             var anuncio = _mapper.Map<Anuncio>(dto);
             var updated = await _service.UpdateAsync(id, anuncio);
-            return Ok(_mapper.Map<AnuncioReadDto>(updated));
+            return Ok(_mapper.Map<AnuncioDto>(updated));
         }
 
         [HttpDelete("{id}")]

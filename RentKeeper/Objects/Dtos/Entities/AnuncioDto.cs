@@ -1,10 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using RentKeeper.Objects.Models; // para relacionamentos, se necessário
 
-namespace RentKeeper.Objects.Models
+namespace RentKeeper.Objects.Dtos.Entities
 {
-    public class Anuncio
+    public class AnuncioDto
     {
         public int IdAnuncio { get; set; }
         public string Titulo { get; set; }
@@ -17,13 +16,6 @@ namespace RentKeeper.Objects.Models
         public decimal Preco { get; set; }
         public string TipoPartida { get; set; }
         public bool Disponivel { get; set; } = true;
-
-        // FK para Usuario
         public int UsuarioId { get; set; }
-        public Usuario Usuario { get; set; }
-
-        // Navegações
-        public ICollection<Aluguel> Alugueis { get; set; } = new List<Aluguel>();
-    
     }
 }

@@ -24,35 +24,35 @@ namespace RentKeeper.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<PagamentoReadDto>> Create(PagamentoCreateDto dto)
+        public async Task<ActionResult<PagamentoDto>> Create(PagamentoDto dto)
         {
             var pag = _mapper.Map<Pagamento>(dto);
             await _service.CreateAsync(pag);
-            var read = _mapper.Map<PagamentoReadDto>(pag);
+            var read = _mapper.Map<PagamentoDto>(pag);
             return CreatedAtAction(nameof(GetById), new { id = read.IdPagamento }, read);
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<PagamentoReadDto>> GetById(int id)
+        public async Task<ActionResult<PagamentoDto>> GetById(int id)
         {
             var p = await _service.GetByIdAsync(id);
             if (p == null) return NotFound();
-            return Ok(_mapper.Map<PagamentoReadDto>(p));
+            return Ok(_mapper.Map<PagamentoDto>(p));
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<PagamentoReadDto>>> GetAll([FromQuery] int page = 1, [FromQuery] int pageSize = 10)
+        public async Task<ActionResult<IEnumerable<PagamentoDto>>> GetAll([FromQuery] int page = 1, [FromQuery] int pageSize = 10)
         {
             var list = await _service.GetAllAsync(page, pageSize);
-            return Ok(_mapper.Map<IEnumerable<PagamentoReadDto>>(list));
+            return Ok(_mapper.Map<IEnumerable<PagamentoDto>>(list));
         }
 
         [HttpPut("{id}")]
-        public async Task<ActionResult<PagamentoReadDto>> Update(int id, PagamentoCreateDto dto)
+        public async Task<ActionResult<PagamentoDto>> Update(int id, PagamentoDto dto)
         {
             var pag = _mapper.Map<Pagamento>(dto);
             var upd = await _service.UpdateAsync(id, pag);
-            return Ok(_mapper.Map<PagamentoReadDto>(upd));
+            return Ok(_mapper.Map<PagamentoDto>(upd));
         }
 
         [HttpDelete("{id}")]

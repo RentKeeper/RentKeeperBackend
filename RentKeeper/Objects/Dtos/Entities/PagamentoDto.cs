@@ -2,8 +2,9 @@
 
 namespace RentKeeper.Objects.Dtos.Entities
 {
-    public class PagamentoCreateDto
+    public class PagamentoDto
     {
+        public int IdPagamento { get; set; }
         public float Valor { get; set; }
         public FormaPagamento FormaPagamento { get; set; }
         public float PorcentagemRecebida { get; set; }

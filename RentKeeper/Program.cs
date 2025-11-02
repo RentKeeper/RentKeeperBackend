@@ -2,7 +2,6 @@ using Microsoft.EntityFrameworkCore;
 using RentKeeper.Data.Context;
 using RentKeeper.Data.Interfaces;
 using RentKeeper.Data.Repositories;
-using RentKeeper.Objects.Mappings;
 using RentKeeper.Services.Entities;
 using RentKeeper.Services.Interfaces;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -19,13 +18,8 @@ builder.Services.AddDbContext<RentKeeperDbContext>(options =>
 );
 builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
 builder.Services.AddScoped<IUsuarioService, UsuarioService>();
-builder.Services.AddAutoMapper(typeof(UsuarioProfile));
-builder.Services.AddControllers();
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IAnuncioRepository, AnuncioRepository>();
 builder.Services.AddScoped<IAnuncioService, AnuncioService>();
-builder.Services.AddAutoMapper(typeof(UsuarioProfile), typeof(AnuncioProfile));
 builder.Services.AddScoped<IAluguelRepository, AluguelRepository>();
 builder.Services.AddScoped<IAluguelService, AluguelService>();
 builder.Services.AddScoped<IPagamentoRepository, PagamentoRepository>();
@@ -33,7 +27,18 @@ builder.Services.AddScoped<IPagamentoService, PagamentoService>();
 builder.Services.AddScoped<ITimeRepository, TimeRepository>();
 builder.Services.AddScoped<ITimeService, TimeService>();
 builder.Services.AddScoped<IAuthService, AuthService>();
-builder.Services.AddSwaggerGen();
+
+// AutoMapper configuration
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
+// Controllers configuration
+builder.Services.AddControllers()
+    .AddJsonOptions(options =>
+    {
+        options.JsonSerializerOptions.PropertyNamingPolicy = null; // Keep PascalCase
+    });
+
+builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddAuthentication("Bearer")
 	.AddJwtBearer("Bearer", options =>
 	{
@@ -53,11 +58,10 @@ builder.Services.AddAuthentication("Bearer")
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowFrontend",
-        policy => policy.WithOrigins("http://localhost:5173") // Porta do Vite
+        policy => policy.WithOrigins("http://localhost:5174") // Porta do Vite
                         .AllowAnyHeader()
                         .AllowAnyMethod());
 });
-builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {
 // Define o documento Swagger/JSON
@@ -99,11 +103,11 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
 	app.UseSwagger();
-	// Configura o endpoint do SwaggerUI para incluir o esquema de segurança
+	// Configura o endpoint do SwaggerUI para incluir o esquema de seguranï¿½a
 	app.UseSwaggerUI(c =>
 	{
 		c.SwaggerEndpoint("/swagger/v1/swagger.json", "RentKeeper API V1");
-		// Mantém a UI do Swagger aberta mesmo sem token, mas habilita o botão Authorize
+		// Mantï¿½m a UI do Swagger aberta mesmo sem token, mas habilita o botï¿½o Authorize
 		c.DisplayRequestDuration();
 	});
 }
@@ -111,7 +115,7 @@ app.UseCors("AllowFrontend");
 app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
-// aqui entrará UseAuthentication() e UseAuthorization() quando adicionarmos JWT
+// aqui entrarï¿½ UseAuthentication() e UseAuthorization() quando adicionarmos JWT
 
 app.MapControllers();
 

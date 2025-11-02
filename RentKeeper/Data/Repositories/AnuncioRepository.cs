@@ -32,6 +32,7 @@ namespace RentKeeper.Data.Repositories
         public async Task<IEnumerable<Anuncio>> GetAllAsync(int page, int pageSize)
         {
             return await _context.Set<Anuncio>()
+                .Include(a => a.Usuario)
                 .Where(a => a.Disponivel)
                 .Skip((page - 1) * pageSize)
                 .Take(pageSize)

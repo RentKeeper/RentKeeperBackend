@@ -24,35 +24,35 @@ namespace RentKeeper.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<AluguelReadDto>> Create(AluguelCreateDto dto)
+        public async Task<ActionResult<AluguelDto>> Create(AluguelDto dto)
         {
             var aluguel = _mapper.Map<Aluguel>(dto);
             await _service.CreateAsync(aluguel);
-            var read = _mapper.Map<AluguelReadDto>(aluguel);
+            var read = _mapper.Map<AluguelDto>(aluguel);
             return CreatedAtAction(nameof(GetById), new { id = read.IdAluguel }, read);
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<AluguelReadDto>> GetById(int id)
+        public async Task<ActionResult<AluguelDto>> GetById(int id)
         {
             var al = await _service.GetByIdAsync(id);
             if (al == null) return NotFound();
-            return Ok(_mapper.Map<AluguelReadDto>(al));
+            return Ok(_mapper.Map<AluguelDto>(al));
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<AluguelReadDto>>> GetAll([FromQuery] int page = 1, [FromQuery] int pageSize = 10)
+        public async Task<ActionResult<IEnumerable<AluguelDto>>> GetAll([FromQuery] int page = 1, [FromQuery] int pageSize = 10)
         {
             var list = await _service.GetAllAsync(page, pageSize);
-            return Ok(_mapper.Map<IEnumerable<AluguelReadDto>>(list));
+            return Ok(_mapper.Map<IEnumerable<AluguelDto>>(list));
         }
 
         [HttpPut("{id}")]
-        public async Task<ActionResult<AluguelReadDto>> Update(int id, AluguelCreateDto dto)
+        public async Task<ActionResult<AluguelDto>> Update(int id, AluguelDto dto)
         {
             var aluguel = _mapper.Map<Aluguel>(dto);
             var upd = await _service.UpdateAsync(id, aluguel);
-            return Ok(_mapper.Map<AluguelReadDto>(upd));
+            return Ok(_mapper.Map<AluguelDto>(upd));
         }
 
         [HttpDelete("{id}")]

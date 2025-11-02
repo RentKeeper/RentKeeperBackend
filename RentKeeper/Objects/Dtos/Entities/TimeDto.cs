@@ -2,7 +2,7 @@
 
 namespace RentKeeper.Objects.Dtos.Entities
 {
-    public class TimeReadDto
+    public class TimeDto
     {
         public int IdTime { get; set; }
         public string NomeTime { get; set; }
