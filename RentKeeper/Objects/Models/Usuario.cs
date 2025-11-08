@@ -14,9 +14,11 @@ namespace RentKeeper.Objects.Models
 
         public string Cpf { get; set; }
 
-        public string Telefone { get; set; }
+    public string Telefone { get; set; }
 
-        public Posicao Posicao { get; set; }
+    public string? ChavePix { get; set; }
+
+    public Posicao Posicao { get; set; }
 
         // Relacionamento opcional com Time
         public int? TimeId { get; set; }

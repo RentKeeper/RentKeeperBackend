@@ -58,7 +58,7 @@ builder.Services.AddAuthentication("Bearer")
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowFrontend",
-        policy => policy.WithOrigins("http://localhost:5174") // Porta do Vite
+        policy => policy.WithOrigins("http://localhost:5173") // Porta do Vite
                         .AllowAnyHeader()
                         .AllowAnyMethod());
 });

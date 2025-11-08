@@ -29,6 +29,10 @@ namespace RentKeeper.Data.Builders
             builder.Property(u => u.Telefone)
                 .IsRequired()
                 .HasMaxLength(100);
+
+            builder.Property(u => u.ChavePix)
+                .IsRequired(false)
+                .HasMaxLength(200);
             builder.Property(u => u.Posicao)
                 .IsRequired();
 
