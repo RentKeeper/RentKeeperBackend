@@ -58,12 +58,9 @@ namespace RentKeeper.Controllers
 		// PUT /api/Usuario/{id}
 		[Authorize] // Exige token válido para atualizar
 		[HttpPut("{id}")]
-		public async Task<ActionResult<UsuarioDto>> Update(int id, [FromBody] UsuarioDto dto)
+		public async Task<ActionResult<UsuarioDto>> Update(int id, [FromBody] UsuarioUpdateDto dto)
 		{
-			// 'dto' também precisa estar declarado aqui
-			var usuarioModel = _mapper.Map<Usuario>(dto);
-			var updatedUsuario = await _service.UpdateAsync(id, usuarioModel);
-
+			var updatedUsuario = await _service.UpdateAsync(id, dto);
 			if (updatedUsuario == null) return NotFound();
 
 			var readDto = _mapper.Map<UsuarioDto>(updatedUsuario);

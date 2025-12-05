@@ -32,6 +32,11 @@ namespace RentKeeper.Data.Repositories
         public async Task<IEnumerable<Time>> GetAllAsync(int page, int pageSize)
         {
             return await _context.Set<Time>()
+                .Include(t => t.Usuarios)
+                .Include(t => t.JogosComoMandante)
+                .ThenInclude(j => j.TimeVisitante)
+                .Include(t => t.JogosComoVisitante)
+                .ThenInclude(j => j.TimeMandante)
                 .Skip((page - 1) * pageSize)
                 .Take(pageSize)
                 .ToListAsync();
@@ -41,6 +46,10 @@ namespace RentKeeper.Data.Repositories
         {
             return await _context.Set<Time>()
                 .Include(t => t.Usuarios)
+                .Include(t => t.JogosComoMandante)
+                    .ThenInclude(j => j.TimeVisitante)
+                .Include(t => t.JogosComoVisitante)
+                    .ThenInclude(j => j.TimeMandante)
                 .FirstOrDefaultAsync(t => t.IdTime == id);
         }
 

@@ -33,6 +33,7 @@ namespace RentKeeper.Data.Repositories
         {
             return await _context.Set<Anuncio>()
                 .Include(a => a.Usuario)
+                .Include(a => a.Alugueis)
                 .Where(a => a.Disponivel)
                 .Skip((page - 1) * pageSize)
                 .Take(pageSize)

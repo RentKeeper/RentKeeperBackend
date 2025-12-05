@@ -17,5 +17,7 @@ namespace RentKeeper.Objects.Dtos.Entities
         public string TipoPartida { get; set; }
         public bool Disponivel { get; set; } = true;
         public int UsuarioId { get; set; }
+        public double? MediaAvaliacao { get; set; }
+        public int TotalAvaliacoes { get; set; }
     }
 }

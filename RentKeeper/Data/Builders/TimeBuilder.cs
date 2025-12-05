@@ -22,6 +22,16 @@ namespace RentKeeper.Data.Builders
                    .WithOne(u => u.Time)
                    .HasForeignKey(u => u.TimeId)
                    .OnDelete(DeleteBehavior.SetNull);
+
+                 builder.HasMany(t => t.JogosComoMandante)
+                     .WithOne(j => j.TimeMandante)
+                     .HasForeignKey(j => j.TimeMandanteId)
+                     .OnDelete(DeleteBehavior.Restrict);
+
+                 builder.HasMany(t => t.JogosComoVisitante)
+                     .WithOne(j => j.TimeVisitante)
+                     .HasForeignKey(j => j.TimeVisitanteId)
+                     .OnDelete(DeleteBehavior.Restrict);
         }
     }
 }
